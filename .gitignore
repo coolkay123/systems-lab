@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+.idea/
+.vscode/
+.venv/
+venv/
+
+# Captures can be large or contain private traffic. Commit only sanitized samples.
+*.pcap
+*.pcapng
+
