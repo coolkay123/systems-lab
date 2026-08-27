@@ -36,4 +36,10 @@ SELECT
     ELSE NULL END),
   COUNT(CASE WHEN county='Bexar' THEN 1
     ELSE NULL END)
-FROM executions
+FROM executions; 
+```
+```sql
+SELECT MIN(ex_age), MAX(ex_age), AVG(ex_age) FROM execution;
+SELECT AVG(LENGTH(last_statement)) FROM execution;
+SELECT DISTINCT county FROM executions -- Can get distinct entries using DISTINCT keyword (not a aggregrate function)
+```
